@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Dealer Markets Apps</title>
+<body>
+<p>
+<h3> APP DEALER MARKETS</h3>
+
+{% if dealers_list %}
+
+	{% for a_dealer in dealers_list %}
+		<form action = "{% url 'dealermarketsApp:result' a_dealer.id %}" method = "post">{% csrf_token %}
+			<select>
+				<option value ="{{a_dealer.id}}" > {{a_dealer.dealer_label}}</option>
+			</select>
+	
+		</form>
+	{% endfor %}
+{% endif %}		
+</p>

@@ -1,0 +1,12 @@
+	<section>
+	<h4>liste de clients</h4>
+		{% if clients_list %}
+			<ul>
+			{% for a_client in clients_list %}
+				<li> {{a_client.client_lastName}}</li>
+			{% endfor %}
+			</ul>
+		{% endif %}
+	</section>
+</body>
+</html>
