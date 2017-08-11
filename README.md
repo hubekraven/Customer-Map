@@ -1,5 +1,8 @@
 ## Customers Dealer-Map
-Small  app project in Python that points out on a Google Map where are concentrated clientes of a given organisation/Dealer. this version of the app is developp in the jupyter notebook environment.
+Small  app project in Python that points out on a Google Map where are concentrated clientes of a given organisation/Dealer. 
+the project the the same app in differente develloppement environment:
+-Jupyter notebook version which is in the myApp folder
+-Django Wep App which is in dealermarletApp
 
 ## Special Notes
 
